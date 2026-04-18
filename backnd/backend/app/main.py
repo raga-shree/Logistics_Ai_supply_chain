@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from backend.app.routes import forecast, optimize, simulate, kpi, anomaly
-from backend.app.routes import coordination
+from app.routes import forecast, optimize, simulate, kpi, anomaly
+from app.routes import coordination
 
 app = FastAPI(
     title="CognixOps Logistics AI API",
@@ -26,7 +26,7 @@ app.include_router(optimize.router,      prefix="/optimize",      tags=["Optimiz
 app.include_router(simulate.router,      prefix="/simulate",      tags=["Simulation"])
 app.include_router(kpi.router,           prefix="/kpi",           tags=["KPIs"])
 app.include_router(anomaly.router,       prefix="/anomaly",       tags=["Anomaly Detection"])
-app.include_router(coordination.router,  prefix="/coordination",  tags=["Coordination"])   # NEW
+app.include_router(coordination.router,  prefix="/coordination",  tags=["Coordination"])
 
 @app.get("/")
 def root():
