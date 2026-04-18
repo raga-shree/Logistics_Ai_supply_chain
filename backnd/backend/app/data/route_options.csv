@@ -1,0 +1,21 @@
+from_node,to_node,from_label,to_label,mode,carrier,cost_usd,lead_time_days,co2_kg,capacity_kg,cargo_weight_kg
+WH-A,PLT-1,Paris WH,Manchester Plant,air,DHL Express,8695.11,1.6,1007.36,5000,1000
+WH-A,PLT-1,Paris WH,Manchester Plant,sea,Maersk,467.34,22.8,12.46,50000,1000
+WH-A,PLT-1,Paris WH,Manchester Plant,road,DB Schenker,1908.32,4.6,165.04,20000,1000
+WH-A,PLT-1,Paris WH,Manchester Plant,rail,DB Cargo,1187.26,9.3,42.33,30000,1000
+WH-A,PLT-2,Paris WH,Amsterdam Plant,air,DHL Express,8015.65,1.5,928.64,5000,1000
+WH-A,PLT-2,Paris WH,Amsterdam Plant,sea,Maersk,435.14,21.3,11.6,50000,1000
+WH-A,PLT-2,Paris WH,Amsterdam Plant,road,DB Schenker,1941.57,4.7,167.92,20000,1000
+WH-A,PLT-2,Paris WH,Amsterdam Plant,rail,DB Cargo,1207.06,9.4,43.03,30000,1000
+WH-B,PLT-1,London WH,Manchester Plant,air,DHL Express,8681.6,1.6,1005.79,5000,1000
+WH-B,PLT-1,London WH,Manchester Plant,sea,Maersk,479.75,23.5,12.79,50000,1000
+WH-B,PLT-1,London WH,Manchester Plant,road,DB Schenker,1853.36,4.5,160.29,20000,1000
+WH-B,PLT-1,London WH,Manchester Plant,rail,DB Cargo,1150.28,9.0,41.01,30000,1000
+WH-B,CUST,London WH,Munich Customer,air,DHL Express,8591.36,1.6,995.34,5000,1000
+WH-B,CUST,London WH,Munich Customer,sea,Maersk,460.8,22.5,12.29,50000,1000
+WH-B,CUST,London WH,Munich Customer,road,DB Schenker,1909.78,4.6,165.17,20000,1000
+WH-B,CUST,London WH,Munich Customer,rail,DB Cargo,1204.43,9.4,42.94,30000,1000
+PLT-2,CUST,Amsterdam Plant,Munich Customer,air,DHL Express,8711.69,1.6,1009.28,5000,1000
+PLT-2,CUST,Amsterdam Plant,Munich Customer,sea,Maersk,438.34,21.4,11.69,50000,1000
+PLT-2,CUST,Amsterdam Plant,Munich Customer,road,DB Schenker,1813.17,4.4,156.81,20000,1000
+PLT-2,CUST,Amsterdam Plant,Munich Customer,rail,DB Cargo,1075.29,8.4,38.34,30000,1000
