@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: logistics-backend
+    runtime: python
+    rootDir: backnd
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.13
