@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routes import forecast, optimize, simulate, kpi, anomaly
-from app.routes import coordination        # ← NEW v3
+from backend.app.routes import forecast, optimize, simulate, kpi, anomaly
+from backend.app.routes import coordination
 
 app = FastAPI(
     title="CognixOps Logistics AI API",
