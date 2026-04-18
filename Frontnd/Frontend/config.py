@@ -4,7 +4,7 @@ import os
 # Same machine:   streamlit run app.py
 # Different IP:   export API_URL=http://192.168.x.x:8000 && streamlit run app.py
 # Windows:        set API_URL=http://192.168.x.x:8000
-API_BASE = os.getenv("API_URL", "http://10.112.233.204:8000").rstrip("/")
+API_BASE = os.getenv("API_URL", "https://logistics-ai-supply-chain.onrender.com").rstrip("/")
 
 # ─── App ─────────────────────────────────────────────────────────────────────
 APP_TITLE = "CognixOps — AI Logistics Intelligence"
